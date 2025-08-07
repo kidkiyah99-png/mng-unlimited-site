@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MNG Unlimited Landscaping</title>
   <style>
     body {
@@ -22,10 +22,10 @@
       max-width: 1000px;
       margin: auto;
     }
-    .packages, .testimonials, .gallery {
+    .packages, .gallery {
       margin-top: 40px;
     }
-    .package, .testimonial {
+    .package {
       background: #f0f4fa;
       padding: 20px;
       margin-bottom: 20px;
@@ -79,6 +79,108 @@
       text-align: center;
       padding: 10px;
     }
+
+    /* Styled What to Expect section */
+    .expectations {
+      background: #16263b;
+      color: #e0e7ff;
+      padding: 40px 20px;
+      border-radius: 12px;
+      max-width: 1000px;
+      margin: 40px auto;
+    }
+    .expectations h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: 700;
+    }
+    .expectations p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+    .expectations p strong {
+      color: #ffffff;
+    }
+
+    /* Email capture */
+    .email-capture {
+      background:#1c2e4a; 
+      color:#e0e7ff; 
+      padding:30px 20px; 
+      text-align:center; 
+      border-radius:12px; 
+      max-width:1000px; 
+      margin:40px auto;
+    }
+    .email-capture h2 {
+      margin-bottom: 10px;
+    }
+    .email-capture p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+    .email-capture form input {
+      padding:12px; 
+      width:250px; 
+      border-radius:4px; 
+      border:none; 
+      max-width:90%;
+    }
+    .email-capture form button {
+      padding:12px 24px; 
+      margin-left:10px; 
+      border:none; 
+      border-radius:4px; 
+      background:#e0e7ff; 
+      color:#1c2e4a; 
+      font-weight:bold; 
+      cursor:pointer;
+    }
+
+    /* Local SEO */
+    .local-seo {
+      max-width:1000px; 
+      margin:40px auto; 
+      padding:20px;
+    }
+    .local-seo h2, .local-seo h3 {
+      margin-bottom: 10px;
+    }
+    .local-seo ul {
+      list-style: disc inside;
+      margin-bottom: 20px;
+      padding-left: 0;
+    }
+    .local-seo ul li {
+      margin-bottom: 6px;
+    }
+
+    /* Testimonials */
+    .testimonials {
+      max-width:1000px; 
+      margin:40px auto; 
+      padding:20px; 
+      background:#f0f4fa; 
+      border-radius:12px; 
+      box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    }
+    .testimonials h2 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .testimonials > div {
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+    .testimonials strong {
+      font-weight: 700;
+      font-style: normal;
+      display: block;
+      margin-top: 6px;
+      text-align: right;
+      color: #1c2e4a;
+    }
   </style>
 </head>
 <body>
@@ -104,14 +206,61 @@
     </div>
   </section>
 
+  <section class="local-seo">
+    <h2>Service Areas</h2>
+    <p>We proudly serve the following areas in and around Atlanta, GA:</p>
+    <ul>
+      <li>Brookhaven</li>
+      <li>East Point</li>
+      <li>Sandy Springs</li>
+      <li>Alpharetta</li>
+      <li>Decatur</li>
+      <li>Marietta</li>
+    </ul>
+    <h3>Find Us Here</h3>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.435793913792!2d-84.38805718478542!3d33.74909968073901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5046edfd22cd5%3A0xb88d3ae9cc7b1461!2sAtlanta%2C%20GA!5e0!3m2!1sen!2sus!4v1691390201234!5m2!1sen!2sus"
+      width="100%"
+      height="300"
+      style="border:0; border-radius:12px;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </section>
+
   <section class="testimonials">
-    <h2>Customer Testimonials</h2>
-    <div class="testimonial">
-      <p>"MNG Unlimited transformed my entire yard. These guys are the real deal." – Alexa M.</p>
+    <h2>What Our Clients Say</h2>
+    <div>
+      <p>“MNG Unlimited has kept my yard looking pristine year-round. Always reliable and professional.”</p>
+      <strong>– Debbie D.</strong>
     </div>
-    <div class="testimonial">
-      <p>"Professional, on-time, and worth every dollar. My property has never looked better." – Ronald K.</p>
+    <div>
+      <p>“After my mother passed, I planted rose bushes in her memory. MNG Unlimited laid fresh mulch and cared for them beautifully. Their attention to detail means a lot.”</p>
+      <strong>– Dr. George Binu</strong>
     </div>
+  </section>
+
+  <section class="expectations">
+    <h2>What to Expect with MNG Unlimited</h2>
+    <div>
+      <p>✔ <strong>Respect for your time, your property, and your privacy</strong></p>
+      <p>✔ <strong>Clear communication before and after every job</strong></p>
+      <p>✔ <strong>All work is pre-faced with a contract</strong></p>
+      <p>✔ <strong>Clean-up included — we leave properties better than we found them</strong></p>
+      <p>✔ <strong>No hidden fees. No BS. Just quality work, every time</strong></p>
+      <p>📄 Invoices are provided via Square through text or email</p>
+      <p>⏰ 5% interest charged for every 4 days past the agreed upon payment due date</p>
+    </div>
+  </section>
+
+  <section class="email-capture">
+    <h2>Get Lawn Care Tips & Exclusive Deals</h2>
+    <p>Sign up for our newsletter and get a FREE seasonal lawn care checklist.</p>
+    <form onsubmit="alert('Thanks for signing up! We\'ll be in touch.'); return false;">
+      <input type="email" name="email" placeholder="Your email address" required />
+      <button type="submit">Sign Up</button>
+    </form>
   </section>
 
   <section class="gallery">
